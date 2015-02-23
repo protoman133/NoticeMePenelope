@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While executing init code:
+  File "game/script.rpy", line 1, in script
+    ﻿init python:
+  File "game/script.rpy", line 7, in <module>
+    style.cps = 4
+Exception: Value is not a style.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1, in script
+    ﻿init python:
+  File "D:\Projects\Programming\renpy-6.18.3-sdk\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\Projects\Programming\renpy-6.18.3-sdk\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 7, in <module>
+    style.cps = 4
+  File "style.pyx", line 190, in renpy.style.StyleManager.__setattr__ (gen\renpy.style.c:3032)
+Exception: Value is not a style.
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+The Odyssey 0.0

@@ -39,48 +39,40 @@ init -1 python hide:
     ## The theme function takes a number of parameters that can
     ## customize the color scheme.
 
-    theme.regal(
-        ## Theme: Regal
-        ## Color scheme: Colorblind
+    theme.a_white_tulip(
+        ## Theme: A White Tulip
+        ## Scheme Muted Horror
 
         ## The color of an idle widget face.
-        widget = "#898989",
+        widget = "#777777",
 
         ## The color of a focused widget face.
-        widget_hover = "#464646",
-
-        ## The color of the text in a widget.
-        widget_text = "#CCCCCC",
+        widget_hover = "#73735C",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#F2F2F2",
+        widget_selected = "#000000",
 
         ## The color of a disabled widget face.
-        disabled = "#898989",
-
-        ## The color of disabled widget text.
-        disabled_text = "#666666",
-
-        ## The color of informational labels.
-        label = "#c2c2c2",
+        disabled = "#73735C",
 
         ## The color of a frame containing widgets.
-        frame = "#252525",
+        frame = "#555544",
 
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#393939",
+        mm_root = "#1A0001",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#393939",
+        gm_root = "#1A0001",
 
-        ## If this is True, the in-game window is rounded. If False,
-        ## the in-game window is square.
-        rounded_window = False,
+        ## The fonts used by this theme. The default fonts may not be
+        ## suitable for non-English languages.
+        regular_font = "_theme_awt/Quicksand-Regular.ttf",
+        bold_font = "_theme_awt/Quicksand-Bold.ttf",
 
         ## And we're done with the theme. The theme will customize
         ## various styles, so if we want to change them, we should
