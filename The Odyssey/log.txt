@@ -1,4 +1,4 @@
-Sun Feb 22 23:29:09 2015
+Sun Mar 15 23:48:35 2015
 Windows-post2008Server-6.2.9200
 Ren'Py 6.18.3.761
 The Odyssey 0.0
@@ -351,8 +351,8 @@ Texture testing:
 Performance test:
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.003000 seconds.
-- Frame drawn at 0.005000 seconds.
-- Frame drawn at 0.022000 seconds.
-- Frame drawn at 0.039000 seconds.
-- 0.039000 seconds to render 5 frames.
+- Frame drawn at 0.004000 seconds.
+- Frame drawn at 0.009000 seconds.
+- Frame drawn at 0.025000 seconds.
+- Frame drawn at 0.042000 seconds.
+- 0.042000 seconds to render 5 frames.

@@ -1,5 +1,4 @@
 ﻿init python:
-    style.default.color = "#000"
     style.default.font = "reteprelleum.otf"
     style.default.size = 28
     style.default.xalign = 0.5
